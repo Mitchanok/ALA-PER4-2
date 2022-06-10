@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    user-select: none;
+}
+
+nav .logo{
+    color: orangered;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 110px;
+}
+
+nav{
+    height: 70px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    background-color: #FFD09C;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: black;
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    border-bottom: 4px solid rgba(223, 47, 12, 0.996);
+    border-radius: 3px;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 85px;
+    border-top: 3px solid rgba(223, 47, 12, 0.996) ;
+    opacity: 0;
+    visibility: hidden;
+}
+
+nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    border-radius: 5px;
+    visibility: visible;
+    transition: .3s linear;
+}
+
+nav ul ul li{
+    width: 150px;
+    display: list-item;
+    position: relative;
+    border: 2px solid #042331;
+    border-top: none;
+    border-end-start-radius:5px;
+    border-end-end-radius: 5px;
+
+}
+
+nav ul ul li a{
+    line-height: 50px;
+}
+
+  nav ul ul ul{
+    border-top: none;
+}
+
+nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    left: 150px;
+}
+nav ul ul li a i{
+    margin-left: 45px;
+}
+
+s
+hover:nav ul ul li a i{
+    transform: scale(2, 1);
+}
+
+.alles {
+    font-size: 20px;
+    padding-left: 7vw;
+    background: linear-gradient(to bottom right, yellow, red);
+}
