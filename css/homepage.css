@@ -23,15 +23,15 @@ body{
  text-align: center;
 }
 .slider{
-  width:800px;
+  width:700px;
   height:500px;
-  border-radius:10px;
   overflow:hidden;
   margin-top: 6vh;
   margin-left: 3vh;
  }
  .slides img {
    width: 600px;
+   border-radius: 10px;
  }
  .slides{ 
    width:500%;
@@ -50,8 +50,8 @@ body{
  position: relative;
  display: flex;
  justify-content: center;
- bottom: 30vh;
- right: 75vh;
+ bottom: 25vh;
+ right: 60vh;
 }
 
 .manual-btn{
