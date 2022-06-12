@@ -5,10 +5,22 @@ body{
 
 
 }
-.hoofd video {
-  height: 500px;
-  width: 1515px;
-  display: flex;
+.hoofd img {
+  width: 1516px;
+  height: 600px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.tekst1{
+ color: antiquewhite;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ bottom: 50vh;
+ font-size: 7vh;
+ z-index: 2;
+ text-align: center;
 }
 .slider{
   width:800px;
@@ -90,6 +102,23 @@ body{
 }
 
 .navigation-auto div:not(:last child){
-  
+  margin-right: 40px;
 }
+
+#radio:checked ~ .navigation-auto .auto-btn1{
+  background: #40D3DC;
+}
+
+#radio:checked ~ .navigation-auto .auto-btn2{
+  background: #40D3DC;
+}
+
+#radio:checked ~ .navigation-auto .auto-btn3{
+  background: #40D3DC;
+}
+
+#radio:checked ~ .navigation-auto .auto-btn4{
+  background: #40D3DC;
+}
+
 
