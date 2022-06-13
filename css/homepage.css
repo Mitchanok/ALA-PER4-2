@@ -50,19 +50,19 @@ body{
   position: relative;
   font-size: 25px;
   text-align: center;
-  right: 10vh;
+  right: 12vh;
   bottom: 45vh;
- color: black;
+ color: rgb(197, 62, 25);
  z-index: 12;
 }
 .circle{
  border: 2px solid whitesmoke;
  border-radius: 50%;
- width: 300px;
+ width: 400px;
  height: 300px;
  position: relative;
  bottom: 26vh;
- left: 15vh;
+ left: 18vh;
  background-color: white;
  z-index: -1;
 }
