@@ -5,7 +5,7 @@
   max-width: 1000px;
   position: relative;
   margin-left: 350px;
-  margin-top: 580px;
+  margin-top: 610px;
   
 }
 
@@ -19,9 +19,11 @@
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 80px;
+  width: 826px;
   text-align: center;
- 
+  border: 2px solid black;
+  background-color:#FFD09C;
+
 }
 
 
@@ -32,4 +34,11 @@
     border: 2px solid black;
     padding: 5px;
     background-color: #FFD09C;
+}
+
+p {
+  font-size: 20px;
+}
+h1 {
+  font-size: 23px;
 }
