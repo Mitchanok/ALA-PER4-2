@@ -45,6 +45,10 @@ body{
    transition:1.5s;
  }
 
+.side{
+  color: rgb(197, 62, 25);
+  z-index: 12;
+}
 .tekst2 {
   float: right;
   position: relative;
@@ -52,8 +56,7 @@ body{
   text-align: center;
   right: 12vh;
   bottom: 45vh;
- color: rgb(197, 62, 25);
- z-index: 12;
+ 
 }
 .circle{
  border: 2px solid whitesmoke;
@@ -65,7 +68,7 @@ body{
  left: 18vh;
  background-color: white;
  z-index: -1;
- opacity: 60%;
+ opacity: 80%;
 }
 .navigation-manual{
  position: relative;
@@ -141,11 +144,16 @@ body{
 #radio:checked ~ .navigation-auto .auto-btn4{
   background: #FFA641;
 }
-
+.tekst3{
+ font-size: 30px;
+}
 .calender img{
   width: 250px;
   height: 250px;
-  
+  float: right;
+  display: flex;
+  position: relative;
+  left: 50vh;
 }
 
 
