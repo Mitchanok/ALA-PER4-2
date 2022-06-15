@@ -23,6 +23,7 @@ font-family: 'IBM Plex Serif', serif;
     height: 70px;
     box-shadow: 0 3px 15px rgba(0,0,0,.4);
     background-color: #FFD09C;
+    
   }
   nav ul{
     float: right;
@@ -38,6 +39,8 @@ font-family: 'IBM Plex Serif', serif;
     line-height: 70px;
     font-size: 20px;
     transition: .5s;
+    background-color: #FFD09C;
+    z-index: 2;
   }
   nav ul li a:hover,
   nav ul li a.active{
