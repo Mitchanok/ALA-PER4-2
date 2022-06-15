@@ -40,7 +40,7 @@ font-family: 'IBM Plex Serif', serif;
     font-size: 20px;
     transition: .5s;
     background-color: #FFD09C;
-    z-index: 2;
+    z-index: 11;
   }
   nav ul li a:hover,
   nav ul li a.active{
