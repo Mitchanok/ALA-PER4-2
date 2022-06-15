@@ -4,8 +4,9 @@
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
-  margin-top: 690px;
+  margin-left: 350px;
+  margin-top: 580px;
+  
 }
 
 /* Hide the images by default */
@@ -20,15 +21,16 @@
   bottom: 8px;
   width: 80px;
   text-align: center;
+ 
 }
 
-/* Number text (1/4) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-  margin-top: -30px;
+
+.tekst {
+    margin-top: 150px;
+    margin-left: 365px;
+    max-width: 800px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #FFD09C;
 }
 
