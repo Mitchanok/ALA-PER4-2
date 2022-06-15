@@ -1,0 +1,44 @@
+* {box-sizing:border-box}
+
+/* Slideshow container*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-left: 350px;
+  margin-top: 610px;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* foto */
+.foto {
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 826px;
+  text-align: center;
+  border: 2px solid black;
+  background-color:#FFD09C;
+
+}
+
+
+.tekst {
+    margin-top: 150px;
+    margin-left: 365px;
+    max-width: 800px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #FFD09C;
+}
+
+p {
+  font-size: 20px;
+}
+h1 {
+  font-size: 23px;
+}
