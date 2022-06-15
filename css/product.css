@@ -42,3 +42,19 @@ p {
 h1 {
   font-size: 23px;
 }
+
+footer{
+  padding-bottom: 2.5vh ;
+  border-top: 2px solid black ;
+  background-color: #FFD09C;
+  color: black;
+}
+  
+footer img{
+  border-radius: 50%;
+}
+  
+.copyright{
+  float: right;
+  
+}
