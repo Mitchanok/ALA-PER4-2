@@ -8,6 +8,7 @@
 body{
     font-family: sans-serif;
     user-select: none;
+    background-color: #FFA641;
 }
 
 nav .logo{
@@ -98,7 +99,65 @@ hover:nav ul ul li a i{
 }
 
 .alles {
+    background-color: #FFA641;
+}
+ 
+h1 {
+    padding-bottom: 1vw;
+    color:  black;
+}
+    
+.tekstboxes {
+    display: flex;
+    justify-content: center;
+    margin: 3%;
     font-size: 20px;
-    padding-left: 7vw;
-    background: linear-gradient(to bottom right, yellow, red);
+}
+    
+.box1 {
+    border: 3px solid black;
+    margin: 3%;
+    padding: 3%;
+    text-align: center;
+    background-color: #FFD09C;
+}
+
+.box2{
+    border: 3px solid black;
+    margin: 3%;
+    padding: 3%;
+    text-align: center;
+    background-color: #FFD09C;
+}
+    
+.box3{
+    border: 3px solid black;
+    margin: 3%;
+    padding: 3%;
+    text-align: center;
+    background-color: #FFD09C;
+}
+
+.box4{
+    border: 3px solid black;
+    margin: 3%;
+    padding: 3%;
+    text-align: center;
+    background-color: #FFD09C;
+}
+
+footer{
+    padding-bottom: 2.5vh ;
+    border-top: 2px solid black ;
+    background-color: #FFD09C;
+    color: black;
+}
+    
+footer img{
+    border-radius: 50%;
+}
+    
+.copyright{
+    float: right;
+    
 }
