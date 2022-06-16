@@ -76,27 +76,6 @@ nav ul ul li{
 
 }
 
-nav ul ul li a{
-    line-height: 50px;
-}
-
-  nav ul ul ul{
-    border-top: none;
-}
-
-nav ul ul ul li{
-    position: relative;
-    top: -70px;
-    left: 150px;
-}
-nav ul ul li a i{
-    margin-left: 45px;
-}
-
-s
-hover:nav ul ul li a i{
-    transform: scale(2, 1);
-}
 
 .alles {
     background-color: #FFA641;
