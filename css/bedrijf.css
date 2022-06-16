@@ -34,10 +34,19 @@ footer{
 .mySlides {
   display: none;
 }
+.foto {
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 826px;
+  text-align: center;
+  border: 2px solid black;
+  background-color:#FFD09C;
+
+}
 /* accordion */
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  
+  border: 2px black solid;
   margin-left: 40%;
   background-color: #eee;
   color: #444;
@@ -55,9 +64,7 @@ footer{
   margin-top: 50px;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #ccc;
-}
+
 
 /* Style the accordion panel. Note: hidden by default */
 
@@ -69,17 +76,9 @@ footer{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-}
-.accordion:after {
-  
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
+  border-bottom: black 2px solid;
+  border-left: black 2px solid;
+  border-right: black 2px solid;
 }
 
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
 /*stop accordion*/
