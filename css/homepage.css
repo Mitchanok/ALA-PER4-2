@@ -147,21 +147,14 @@ body{
 .tekst4{
   text-align: center;
  position: relative;
- width: 5%;
- font-size: 26px;
- bottom: 100vh;
+ font-size: 30px;
+ bottom: 120vh;
  z-index: 5;
 }
 .t {
  
 }
-.tekst3 {
- font-size: 26px;
- width: 20%;
- text-align: center;
- position: relative;
- left: 10vh;
-}
+
 
 .back{
  border: 2px solid whitesmoke;
@@ -193,5 +186,4 @@ body{
   bottom: 85vh;
   z-index: 4;
 }
-
 
