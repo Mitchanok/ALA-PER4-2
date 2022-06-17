@@ -144,16 +144,54 @@ body{
 #radio:checked ~ .navigation-auto .auto-btn4{
   background: #FFA641;
 }
-.tekst3{
- font-size: 30px;
+.tekst4{
+  text-align: center;
+ position: relative;
+ width: 5%;
+ font-size: 26px;
+ bottom: 100vh;
+ z-index: 5;
+}
+.t {
+ 
+}
+.tekst3 {
+ font-size: 26px;
+ width: 20%;
+ text-align: center;
+ position: relative;
+ left: 10vh;
+}
+
+.back{
+ border: 2px solid whitesmoke;
+ height: 600px;
+ width: 1515px;
+ position: relative;
+ right:10vh ;
+ background-color: white;
+ opacity: 95%;
+ z-index: -2;
+}
+.calender button{
+  background-color: #51b6e7;
+  font-size: 1.4rem;
+  border-radius: 80vw;
+  box-shadow: #fff;
+  z-index: 4;
+}
+.calender button:active{
+
 }
 .calender img{
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   float: right;
   display: flex;
   position: relative;
-  left: 50vh;
+  left: 130vh;
+  bottom: 85vh;
+  z-index: 4;
 }
 
 
