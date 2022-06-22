@@ -29,33 +29,33 @@ h1 {
 }
     
 .box1 {
-    border: 3px solid black;
-    margin: 3%;
-    padding: 3%;
+    border: 2px solid black;
+    margin: 2%;
+    padding: 4%;
     text-align: center;
     background-color: #FFD09C;
 }
 
 .box2{
-    border: 3px solid black;
-    margin: 3%;
-    padding: 3%;
+    border: 2px solid black;
+    margin: 2%;
+    padding: 4%;
     text-align: center;
     background-color: #FFD09C;
 }
     
 .box3{
-    border: 3px solid black;
-    margin: 3%;
-    padding: 3%;
+    border: 2px solid black;
+    margin: 2%;
+    padding: 4%;
     text-align: center;
     background-color: #FFD09C;
 }
 
 .box4{
-    border: 3px solid black;
-    margin: 3%;
-    padding: 3%;
+    border: 2px solid black;
+    margin: 2%;
+    padding: 4%;
     text-align: center;
     background-color: #FFD09C;
 }
@@ -65,6 +65,7 @@ footer{
     border-top: 2px solid black ;
     background-color: #FFD09C;
     color: black;
+    margin-top: 13.6vh;
 }
     
 footer img{
@@ -75,3 +76,4 @@ footer img{
     float: right;
     
 }
+
