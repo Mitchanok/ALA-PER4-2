@@ -54,7 +54,7 @@
 require('dbconnect.php')
 ?>
   <?php
-    $sql = "SELECT * FROM artiesten";
+    $sql = "SELECT naam FROM artiesten";
     if($result = $conn->query($sql)){
         while    ($row = $result->fetch_row()){
             echo $row[0]." ".$row[1]." ".$row[2]."<br>";
