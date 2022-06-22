@@ -39,9 +39,8 @@ footer{
   bottom: 8px;
   width: 826px;
   text-align: center;
-  border: 2px solid black;
+  border-top: black 2px solid;
   background-color:#FFD09C;
-
 }
 /* accordion */
 /* Style the buttons that are used to open and close the accordion panel */
@@ -63,8 +62,6 @@ footer{
 .vragen {
   margin-top: 50px;
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-
 
 /* Style the accordion panel. Note: hidden by default */
 
