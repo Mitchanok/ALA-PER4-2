@@ -58,7 +58,7 @@ require('dbconnect.php')
     $sql = "SELECT * FROM artiesten";
     if($result = $conn->query($sql)){
         while ($row = $result->fetch_row()){
-            echo $row[0]."<br> <br>";
+            echo $row[1]."<br> <br>";
            }
         $result->close();
     }
