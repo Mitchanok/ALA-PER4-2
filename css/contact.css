@@ -59,3 +59,20 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: orangered;
 }
+
+footer{
+    padding-bottom: 2.5vh ;
+    margin-top: 10.6vh;
+    border-top: 2px solid black ;
+    background-color: #FFD09C;
+    color: black;
+}
+    
+footer img{
+    border-radius: 50%;
+}
+    
+.copyright{
+    float: right;
+    
+}

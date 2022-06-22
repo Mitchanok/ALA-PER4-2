@@ -15,32 +15,92 @@
     </head>
     <body>
      <article class="main">
-              <nav>
-               <label class="logo"><img src="images/LOGOrfrfrfr.png" height="100px" width="280px" alt="logo"></label>
+      <nav>
+         <label class="logo"><img src="images/LOGOrfrfrfr.png" height="100px" width="280px" alt="logo"></label>
+         <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a class="active" href="product.html">Product</a>
+            <i class="fas fa-caret-down"></i>
+            <ul>
+             <li><a href="#">aanbieding</a>
+              <li><a href="bedrijf.html">bedrijfinformatie</a>
+            </ul>
+          </li>
+          </li>
+           </li>
+            <li>
+               <a href="evenement.html">Evenement</a>
+               <i class="fas fa-caret-down"></i>
+               </a>
                <ul>
-                  <li><a href="homepage.html">Home</a></li>
-                  <li><a class="active" href="product.html">Product</a>
-                  <i class="fas fa-caret-down"></i>
-                  <ul>
-                   <li><a href="#">aanbieding</a>
-                  </ul>
-                </li>
-                </li>
+                  <li><a href="#">artiesten</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="contact.html">Contact</a>
                   <li>
-                     <a href="evenement.html">Evenement</a>
-                     <i class="fas fa-caret-down"></i>
-                     </a>
-                     <ul>
-                        <li><a href="#">artiesten</a></li>
-                     </ul>
-                  </li>
-                  <li>
-                     <a href="contact.html">Contact</a>
-                        <li>
-                           <a href="over.html">Over ons</a>
-                           </ul>
-                        </li>
+                     <a href="over.html">Over ons</a>
                      </ul>
                   </li>
                </ul>
-            </nav>
+            </li>
+         </ul>
+      </nav>
+      </article>
+      <!-- Slideshow container -->
+<section class="slideshow-container">
+
+   <!-- Full-width images with number and caption text -->
+   <div class="mySlides">
+     
+     <article class="foto"><img src="images/ananas energy.png" width="800px"></article>
+   </div>
+   <div class="mySlides">
+     <article class="foto"><img src="images/coconut energy.png" width="800px"></article>
+   </div>
+   <div class="mySlides">
+     <article class="foto"><img src="images/melon energy.png" width="800px"></article>
+   </div>
+
+   <div class="mySlides">
+      <article class="foto"><img src="images/strawberry energy.png" width="800px"></article>
+   </section>
+<section>
+    <article class="tekst">
+       <br>
+       <h1 class="title">Flavoury</h1>
+       <br>
+       <p class="praten">Flavoury is een drankje met een lekkere frisse tropische smaak. 
+          Wij hebben de smaken: STRAWBERRY, ANANAS en MELON. Wij hebben op dit moment ook een limited edition, en dat is COCONUT. 
+          Veel van onze medewerkers vinden dit de lekkerste smaak tot nu toe.
+          Deze drankjes zijn te verkrijgen in bijna alle supermarkten.
+         Voor ongeveer een prijs van 1,50 per blikje.
+         Onze limited edition is alleen te verrkijgen op onze festivals.</p>
+    </article>
+</section>
+<br>
+<br>
+<br>
+<script>
+ let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // timer voor slides
+}
+</script>
+<footer class="footer">
+   <img class="telefoon" src="images/phone_icon_clip_art.jpg" alt="telefoon" height="20px"><p class="footerp">0653177832</p>
+   <p class="copyright">copyright flavoury©</p>
+   <img class="Email" src="images/download.png" alt="mail" height="20px"><p>flavoury@gmail.com</p>           
+</footer>
+   </body>    
+</html>     

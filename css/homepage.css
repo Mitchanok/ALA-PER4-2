@@ -1,21 +1,36 @@
 body{
   background-color:#FFA641;
- 
-  
-
+ display: grid;
+ font-family: 'Roboto', sans-serif;
 
 }
+.hoofd img {
+  width: 1516px;
+  height: 600px;
+  display: block;
+  margin-bottom: 5px;
+}
 
+.tekst1{
+ color: antiquewhite;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ bottom: 50vh;
+ font-size: 7vh;
+ z-index: 2;
+ text-align: center;
+}
 .slider{
-  width:800px;
+  width:700px;
   height:500px;
-  border-radius:10px;
   overflow:hidden;
   margin-top: 6vh;
   margin-left: 3vh;
  }
  .slides img {
    width: 600px;
+   border-radius: 10px;
  }
  .slides{ 
    width:500%;
@@ -27,15 +42,40 @@ body{
  }
  .slide{
    width:20%;
-   transition:2s;
+   transition:1.5s;
  }
+
+.side{
+  color: rgb(197, 62, 25);
+  z-index: 12;
+}
+.tekst2 {
+  float: right;
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  right: 12vh;
+  bottom: 45vh;
  
+}
+.circle{
+ border: 2px solid whitesmoke;
+ border-radius: 50%;
+ width: 400px;
+ height: 300px;
+ position: relative;
+ bottom: 26vh;
+ left: 18vh;
+ background-color: white;
+ z-index: -1;
+ opacity: 80%;
+}
 .navigation-manual{
  position: relative;
  display: flex;
  justify-content: center;
- bottom: 30vh;
- right: 75vh;
+ bottom: 25vh;
+ right: 60vh;
 }
 
 .manual-btn{
@@ -86,6 +126,86 @@ body{
 }
 
 .navigation-auto div:not(:last child){
-  
+  margin-right: 40px;
 }
 
+#radio:checked ~ .navigation-auto .auto-btn1{
+  background: #FFA641;
+}
+
+#radio:checked ~ .navigation-auto .auto-btn2{
+  background: #FFA641;
+}
+
+#radio:checked ~ .navigation-auto .auto-btn3{
+  background: #FFA641;
+}
+
+#radio:checked ~ .navigation-auto .auto-btn4{
+  background: #FFA641;
+}
+.tekst4{
+  text-align: center;
+ position: relative;
+ width: 5%;
+ font-size: 26px;
+ bottom: 100vh;
+ z-index: 5;
+}
+.t {
+ 
+}
+.tekst3 {
+ font-size: 26px;
+ width: 20%;
+ text-align: center;
+ position: relative;
+ left: 10vh;
+}
+
+.back{
+ border: 2px solid whitesmoke;
+ height: 600px;
+ width: 1515px;
+ position: relative;
+ right:10vh ;
+ background-color: white;
+ opacity: 95%;
+ z-index: -2;
+}
+.calender button{
+  background-color: #51b6e7;
+  font-size: 1.4rem;
+  border-radius: 80vw;
+  box-shadow: #fff;
+  z-index: 4;
+}
+.calender button:active{
+
+}
+.calender img{
+  width: 300px;
+  height: 300px;
+  float: right;
+  display: flex;
+  position: relative;
+  left: 130vh;
+  bottom: 85vh;
+  z-index: 4;
+}
+
+footer{
+  padding-bottom: 2.5vh ;
+  border-top: 2px solid black ;
+  background-color: #FFD09C;
+  color: black;
+}
+  
+footer img{
+  border-radius: 50%;
+}
+  
+.copyright{
+  float: right;
+  
+}
