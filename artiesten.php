@@ -9,7 +9,7 @@
       <meta name="author" content="ALA groep 4">
       <meta name="keywords" content="">
       <title>Flavoury</title>
-   <link rel="stylesheet" href="css/evenementen.css">
+   <link rel="stylesheet" href="css/artiesten.css">
    <link rel="stylesheet" href="css/navbar.css">
    </head>
    <body>
@@ -53,14 +53,16 @@
  <?php
 require('dbconnect.php')
 ?>
+<article>
   <?php
-    $sql = "SELECT naam FROM artiesten";
+    $sql = "SELECT * FROM artiesten";
     if($result = $conn->query($sql)){
-        while    ($row = $result->fetch_row()){
-            echo $row[0]." ".$row[1]." ".$row[2]."<br>";
-        }
+        while ($row = $result->fetch_row()){
+            echo $row[0]."<br> <br>";
+           }
         $result->close();
     }
     
     
     ?>
+</article>
