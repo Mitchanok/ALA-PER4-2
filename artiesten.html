@@ -50,6 +50,17 @@
       <br>
       <br>
 
-    <section>
-        <article class=""
-    </section>
+ <?php
+require('dbconnect.php')
+?>
+  <?php
+    $sql = "SELECT * FROM artiesten";
+    if($result = $conn->query($sql)){
+        while    ($row = $result->fetch_row()){
+            echo $row[0]." ".$row[1]." ".$row[2]."<br>";
+        }
+        $result->close();
+    }
+    
+    
+    ?>
