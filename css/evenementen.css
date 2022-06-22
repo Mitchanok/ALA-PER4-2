@@ -29,4 +29,18 @@
 .info3 { grid-area: info3; }
   
 .info4 { grid-area: info4; }
-  
+
+#titel {
+  font-size: 20px;
+}
+b {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  border: solid black 1.5px;  
+  padding: 2px;
+}
+
+b.two:link {color:#ff0000;}
+b.two:visited {color:#0000ff;}
+b.two:hover {font-size:150%;}
