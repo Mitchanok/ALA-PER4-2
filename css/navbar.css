@@ -10,6 +10,9 @@
     background-color:#FFA641;
     }
 
+.bid{
+  color: orangered;
+}
   nav .logo{
     color: orangered;
     font-size: 33px;
@@ -89,3 +92,4 @@
   hover:nav ul ul li a i{
     transform: scale(2, 1);
   }
+
