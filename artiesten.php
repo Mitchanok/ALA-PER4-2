@@ -53,7 +53,7 @@
  <?php
 require('dbconnect.php')
 ?>
-<article>
+<article class="artiesten">
   <?php
     $sql = "SELECT * FROM artiesten";
     if($result = $conn->query($sql)){
