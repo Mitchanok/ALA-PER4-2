@@ -59,7 +59,7 @@ require('dbconnect.php')
     $sql = "SELECT * FROM artiesten";
     if($result = $conn->query($sql)){
         while ($row = $result->fetch_row()){
-            echo "<h4>" . $row[1]. "</h4>" ."<br> <br>";
+            echo "<h4>" . $row[1]. "<br>". "<br>". "<p>statment:</p>". $row[5] . "</h4>" ."<br> <br>";
            }
         $result->close();
     }
