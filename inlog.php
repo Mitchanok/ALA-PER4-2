@@ -6,9 +6,8 @@ if (isset($_POST['Submit'])) {
         require("dbconnect.php");
 
         $username = ($_POST['username']);
-        $password = safe($_POST['password']);
-        $password = $conn->real_escape_string($password);
-
+        $password = ($_POST['password']);
+        
         $sql = "SELECT * FROM gebruikers WHERE username = '".$username."'";
 
         if($result = $conn->query($sql)){
@@ -21,7 +20,7 @@ if (isset($_POST['Submit'])) {
                 $_SESSION['loggedin'] = true;
                 $_SESSION['username'] = $username;
                 $_SESSION['password'] = $password;
-                header("Location: addschoen.php");
+                header("Location: beheerder.php");
             } else {
                 $error = "niet de juiste gegevens ingeluld";
             }

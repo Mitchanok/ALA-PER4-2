@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['store'])) {
+if (isset($_POST['submit'])) {
         require("dbconnect.php");
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
@@ -12,13 +12,14 @@ if (isset($_POST['store'])) {
             }
             
         }
-        $merk = $_POST['merks'];
-        $model = $_POST['models'];
-        $maat = $_POST['maats'];
-        $prijs = $_POST['prijss'];
-        $sql = "INSERT INTO schoenen
-        VALUES (NULL, '$merk', '$model', '$maat',
-        '$prijs')";
+        $evenement_id = $_POST['evenement-id'];
+        $datum = $_POST['datum'];
+        $artiest_id = $_POST['artiest-id'];
+        $locatie_id = $_POST['locatie-id'];
+        $max_bezoekers = $_POST['max-bezoekers'];
+        $sql = "INSERT INTO evenementen
+        VALUES ('$evenement_id', '$datum', '$artiest_id',
+        '$locatie_id', '$max_bezoekers')";
         
         if($conn->query($sql)){
             echo "toegevoegd aan database";
@@ -37,17 +38,19 @@ if (isset($_POST['store'])) {
 <body>
 
     <form method='POST'>
-<input type="text" name="merks" placeholder='merk'>
+<input type="number" name="evenement-id" placeholder='evenement'>
 <br>
-<input type="text" name="models" placeholder='model'>
+<input type="date" name="datum" placeholder='datum'>
 <br>
-<input type="number" name="maats" placeholder='maat'>
+<input type="number" name="artiest-id" placeholder='artiest'>
 <br>
-<input type="number" name="prijss" placeholder='prijs'>
+<input type="number" name="locatie-id" placeholder='locatie'>
+<br>
+<input type="number" name="max-bezoekers" placeholder='bezoekers'>
 <br>
 
 
-<input type="submit" value="store" name='store'>
+<input type="submit" value="submit" name='submit'>
 <br>
 
 </form>
