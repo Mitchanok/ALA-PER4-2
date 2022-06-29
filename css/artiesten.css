@@ -1,0 +1,22 @@
+.artiesten {
+    border: black 2px solid;
+    background-color: #FFD09C;
+    text-align: center;
+}
+
+footer{
+    padding-bottom: 2.5vh ;
+    border-top: 2px solid black ;
+    background-color: #FFD09C;
+    color: black;
+    margin-top: 250px;
+   }
+    
+  footer img{
+    border-radius: 50%;
+  }
+    
+  .copyright{
+    float: right;
+    
+  }
