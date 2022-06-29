@@ -94,19 +94,19 @@ body{
   background: #FFA641;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked .first{
   margin-left: 0;
 }
 
-#radio2:checked ~ .first{
+#radio2:checked .first{
   margin-left: -20%;
 }
 
-#radio3:checked ~ .first{
+#radio3:checked .first{
   margin-left: -40%;
 }
 
-#radio4:checked ~ .first{
+#radio4:checked .first{
   margin-left: -60%;
 }
 
@@ -129,32 +129,29 @@ body{
   margin-right: 40px;
 }
 
-#radio:checked ~ .navigation-auto .auto-btn1{
+#radio:checked .navigation-auto .auto-btn1{
   background: #FFA641;
 }
 
-#radio:checked ~ .navigation-auto .auto-btn2{
+#radio:checked .navigation-auto .auto-btn2{
   background: #FFA641;
 }
 
-#radio:checked ~ .navigation-auto .auto-btn3{
+#radio:checked .navigation-auto .auto-btn3{
   background: #FFA641;
 }
 
-#radio:checked ~ .navigation-auto .auto-btn4{
+#radio:checked .navigation-auto .auto-btn4{
   background: #FFA641;
 }
 .tekst4{
   text-align: center;
  position: relative;
- width: 5%;
- font-size: 26px;
- bottom: 100vh;
+ font-size: 30px;
+ bottom: 90vh;
  z-index: 5;
 }
-.t {
- 
-}
+
 .tekst3 {
  font-size: 26px;
  width: 20%;
@@ -173,16 +170,8 @@ body{
  opacity: 95%;
  z-index: -2;
 }
-.calender button{
-  background-color: #51b6e7;
-  font-size: 1.4rem;
-  border-radius: 80vw;
-  box-shadow: #fff;
-  z-index: 4;
-}
-.calender button:active{
 
-}
+
 .calender img{
   width: 300px;
   height: 300px;
@@ -190,22 +179,28 @@ body{
   display: flex;
   position: relative;
   left: 130vh;
-  bottom: 85vh;
+  bottom: 55vh;
   z-index: 4;
 }
 
-footer{
-  padding-bottom: 2.5vh ;
-  border-top: 2px solid black ;
-  background-color: #FFD09C;
-  color: black;
-}
-  
-footer img{
-  border-radius: 50%;
-}
-  
-.copyright{
+.maps iframe {
   float: right;
-  
+  position: relative;
+  bottom: 35vh;
+  right: 0.8vh;
+}
+h2 {
+  color:whitesmoke;
+  text-align: center;
+  position: relative;
+  bottom: 65vh;
+  font-size: 45px;
+}
+
+.maps p{
+  color: orangered;
+  text-align: center;
+  position: relative;
+  bottom: 125vh;
+  font-size: 25px;
 }

@@ -15,37 +15,34 @@
     </head>
     <body>
      <article class="main">
-      <nav>
-         <label class="logo"><img src="images/LOGOrfrfrfr.png" height="100px" width="280px" alt="logo"></label>
-         <ul>
-            <li><a href="homepage.html">Home</a></li>
-            <li><a class="active" href="product.html">Product</a>
-            <i class="fas fa-caret-down"></i>
-            <ul>
-             <li><a href="aanbieding.html">aanbieding</a>
-              <li><a href="bedrijf.html">bedrijfinformatie</a>
-            </ul>
-          </li>
-          </li>
-           </li>
-            <li>
-               <a href="evenement.html">Evenement</a>
-               <i class="fas fa-caret-down"></i>
-               </a>
-               <ul>
-                  <li><a href="#">artiesten</a></li>
-               </ul>
-            </li>
-            <li>
-               <a href="contact.html">Contact</a>
-                  <li>
-                     <a href="over.html">Over ons</a>
-                     </ul>
-                  </li>
-               </ul>
-            </li>
-         </ul>
-      </nav>
+              <nav>
+                    <label class="logo"><img src="images/LOGOrfrfrfr.png" height="100px" width="280px" alt="logo"></label>
+                    <ul>
+                       <li><a  href="homepage.html">Home</a></li>
+                       <li><a href="product.html">Product</a>
+                       <i class="fas fa-caret-down"></i>
+                       <ul>
+                        <li><a href="#">aanbieding</a>
+                       </ul>
+                     </li>
+                     </li>
+                       <li>
+                          <a href="evenement.html">Evenement</a>
+                          <i class="fas fa-caret-down"></i>
+                          </a>
+                          <ul>
+                             <li><a href="#">artiesten</a></li>
+                          </ul>
+                       </li>
+                       <li>
+                          <a class="active" href="contact.html">Contact</a>
+                             <li>
+                                <a href="over.html">Over ons</a>
+                                </ul>
+                             </li>
+                          </ul>
+                       </li>
+                    </ul>
             </nav>
             <div class="afspraak">
                 <form action="cont.php">
@@ -70,11 +67,6 @@
                     <button type="submit">Versturen</button>
                 </form>
      </article>
-     <footer class="footer">
-        <img class="telefoon" src="images/phone_icon_clip_art.jpg" alt="telefoon" height="20px"><p class="footerp">0653177832</p>
-        <p class="copyright">copyright flavoury©</p>
-        <img class="Email" src="images/download.png" alt="mail" height="20px"><p>flavoury@gmail.com</p>           
-     </footer>
 
     </body>
 </html>
